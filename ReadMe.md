@@ -138,6 +138,96 @@ Charts and visualizations are rendered using **Plotly**.
 
 - Implements the interactive Streamlit dashboard.
 
+---
+
+## Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Application
+
+Run the main script:
+
+```bash
+python main.py
+```
+
+This will launch the **Streamlit dashboard**, where users can analyze stock data interactively.
+
+---
+
+## Example Workflow
+
+1. Enter a stock symbol (example: `RELIANCE.NS`)
+2. Select a date range for analysis
+3. Adjust the trading signal detection window
+4. Click **Analyze**
+
+The system will then:
+
+- Fetch historical market data
+- Compute technical indicators
+- Perform sentiment analysis
+- Train the machine learning model
+- Display trading signals and predictions
+
+---
+
+## Technologies Used
+
+### Programming Language
+
+- Python
+
+### Libraries
+
+- Pandas
+- NumPy
+- Scikit-learn
+- TA (Technical Analysis Library)
+- Streamlit
+- Plotly
+- yfinance
+
+---
+
+## Limitations
+
+This project is intended for **educational and experimental purposes**.
+
+Some limitations include:
+
+- Sentiment analysis uses a small dictionary-based approach.
+- Predictions rely on historical data and simplified assumptions.
+- Future price simulations may not accurately reflect real-world market conditions.
+
+---
+
+## Future Improvements
+
+Possible extensions for the project include:
+
+- Integrating financial news APIs for real-time sentiment analysis
+- Implementing deep learning models such as **LSTM** for time-series forecasting
+- Adding portfolio optimization tools
+- Implementing automated backtesting for trading strategies
+
+---
+
+## References
+
+- Investopedia – Basics of Stock Market
+- Screener.in – Stock Fundamentals
+- Chartink – Stock Screener
+- NSE India
+- BSE India
+
 **main.py**
 
 - Installs dependencies and launches the application.
